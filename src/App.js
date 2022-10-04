@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import datos from './data';
+import Clima from './components/Clima';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar title="My Weather" />
+      <div className='container d-flex'>
+        {
+          datos.map(dato=>
+            <Clima
+              key={dato.city}
+              city={dato.city}
+              lat={dato.lat}
+              lon={dato.lon}
+            />
+        )}
+      </div>
+      
     </div>
   );
 }
