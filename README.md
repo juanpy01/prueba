@@ -2,6 +2,11 @@
 
 ## Desarrollo Frontend con React
 
+## Los integrantes del presente trabajo somos:
+
+### Juan Pablo Meló
+### Sergio Rodrigo Suárez
+
 ## Objetivo
 
 El presente trabajo tiene como objetivo crear, utilizando la herramienta React, una página que cumpla con los siguientes puntos:
@@ -28,10 +33,5 @@ Además, es requisito obligatorio:
 - Crear por lo menos 2 rutas de navegación.
 - Utilizar por lo menos 2 hooks distintos.
 - Crear por lo menos 1 context.
-
-## Los integrantes del presente trabajo somos:
-
-### Juan Pablo Meló
-### Sergio Rodrigo Suárez
 
 ## Saludos 🐱‍👤
