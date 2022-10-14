@@ -1,0 +1,14 @@
+.more-container{
+    display: flex;
+    
+}
+
+.col{
+    display: grid;
+
+}
+
+.row{
+    display: grid;
+
+}
